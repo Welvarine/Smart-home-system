@@ -1,0 +1,42 @@
+# Logs
+*.log
+logs/
+*.log
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Dependencies
+vendor/
+node_modules/
+composer.lock
+
+# Cache
+.cache/
+tmp/
+temp/
+
+# Docker
+.docker/
+
+# Database
+database.sql
+*.sql
+
+# Temporary files
+*.tmp
+.gitkeep

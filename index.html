@@ -1,0 +1,63 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Smart Home – Home</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .option-btn {
+            display: block;
+            width: 100%;
+            padding: 12px;
+            margin-top: 15px;
+            background: #f6c453;
+            color: #102a43;
+            border: none;
+            border-radius: 6px;
+            font-size: 16px;
+            font-weight: bold;
+            text-align: center;
+            cursor: pointer;
+            text-decoration: none;
+            transition: 0.3s;
+        }
+        .option-btn:hover {
+            background: #ffd97a;
+            text-decoration: none;
+        }
+        .container {
+            background: rgba(16, 42, 67, 0.85);
+            padding: 40px;
+            border-radius: 12px;
+            width: 380px;
+            text-align: center;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.6);
+        }
+        h1, h2 {
+            color: #f6c453;
+            margin-bottom: 20px;
+        }
+        hr {
+            margin: 20px 0;
+            border: 1px solid rgba(255,255,255,0.2);
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>Welcome to Smart Home</h1>
+    <h2>Select Your Option</h2>
+
+    <!-- Parent Login -->
+<a href="php/login.php" class="option-btn">Parent Login</a>
+
+<!-- Parent Register -->
+<a href="php/register.php" class="option-btn">Parent Register</a>
+
+<!-- Child Login -->
+<a href="child_login.php" class="option-btn">Child Login</a>
+
+</div>
+</body>
+</html>
